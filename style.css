@@ -14,16 +14,18 @@ div#navBar {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    height: 150px;   
+    height: 75px;   
 }
 body section#topHeader{
     background-color: black;
     padding: 25px;
 }
-img {
-    width: 800px;
-    height: 800px;
-    align-items: center;
+body div#picture img#profilePic{
+    width: 600px;
+    height: 600px;
+    display: block;
+    justify-content: space-around;
+    margin: 0 auto;
 }
 ul{
     display: flex;
@@ -34,4 +36,15 @@ ul{
 a{
     text-decoration: none;
     color: #fff
+}
+h1{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 2.5em;
+}
+body section#title {
+    background-color: black;
+    padding: 25px;
 }
