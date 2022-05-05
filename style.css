@@ -10,6 +10,13 @@ body {
     background-attachment: fixed;
     align-items: center;
 }
+.page-wrap{
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 960px;  
+}
 div#navBar {
     margin-left: auto;
     margin-right: auto;
@@ -61,6 +68,10 @@ h2 {
     list-style: none;
     font-size: 2.5em;
     margin: 0 auto;
+}
+p span {
+    background-color: #fff;
+    background-size:auto;
 }
 p {
     color: black;
