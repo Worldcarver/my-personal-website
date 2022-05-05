@@ -26,6 +26,8 @@ body div#picture img#profilePic{
     display: block;
     justify-content: space-around;
     margin: 0 auto;
+    border: 2px solid white;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.55);
 }
 ul{
     display: flex;
@@ -44,7 +46,27 @@ h1{
     list-style: none;
     font-size: 2.5em;
 }
+h1 span {
+    background-color: #fff;
+    background-size:auto;
+}
 body section#title {
     background-color: black;
     padding: 25px;
+}
+h2 {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 2.5em;
+    margin: 0 auto;
+}
+p {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.5em;
+    margin: 0 auto;
 }
