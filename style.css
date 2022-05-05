@@ -8,6 +8,7 @@ body {
     background: url("https://images7.alphacoders.com/691/691169.jpg");
     background-size: cover;
     background-attachment: fixed;
+    align-items: center;
 }
 div#navBar {
     margin-left: auto;
@@ -22,4 +23,15 @@ body section#topHeader{
 img {
     width: 800px;
     height: 800px;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.4em;
+}
+a{
+    text-decoration: none;
+    color: #fff
 }
